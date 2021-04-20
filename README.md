@@ -7,8 +7,11 @@
 <img src="readme_resource/highway_3.gif">
 
 
+## Consistency
 
+<img src="readme_resource/NIS_Lidar.png">
 
+<img src="readme_resource/NIS_Radar.png">
 
 
 ## Usage
@@ -42,9 +45,9 @@ Run the executable
 ```
 
 ## Issues
-I provide some potentail solution to the warning showing up when using cmake.
+I provide some potentail solutions to the warning showing up when using cmake.
 - `io features related to pcap will be disabled` \
-This kind of warning is due to the missing some extra PCL libraries in the environment. Install the extra PCL libraries could fix this warning.
+This kind of warning is due to the missing of some extra PCL libraries in the environment. Install the extra PCL libraries could fix this warning.
 - `The imported target "vtkRenderingPythonTkWidgets" references the file "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so" but this file does not exist.` \
 Install "python-vtk6" and create the link.
 ```
