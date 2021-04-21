@@ -37,12 +37,9 @@ Go into the build directory
 ```
 cd build
 ```
-Run `cmake` pointing to the CMakeList.txt in the root
+Compile
 ```
 cmake ..
-```
-Run `make`
-```
 make
 ```
 Run the executable
