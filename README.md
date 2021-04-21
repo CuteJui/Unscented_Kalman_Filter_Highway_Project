@@ -29,7 +29,7 @@ Go to the Unscented Kalman Filter Highway Project directory
 ```
 cd /home/user/Unscented_Kalman_Filter_Highway_Project
 ```
-Create a new directory
+Make a build directory
 ```
 mkdir build
 ```
@@ -37,11 +37,11 @@ Go into the build directory
 ```
 cd build
 ```
-Run cmake pointing to the CMakeList.txt in the root
+Run `cmake` pointing to the CMakeList.txt in the root
 ```
 cmake ..
 ```
-Run make
+Run `make`
 ```
 make
 ```
