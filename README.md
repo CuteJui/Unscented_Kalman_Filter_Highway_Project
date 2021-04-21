@@ -15,6 +15,7 @@ The animation above shows the visualization of the cars from the lidar's perspec
 
 ## Consistency
 I used Normalized Innovation Squared (NIS) and X-squared distribution to check the consistency of the parameters. The following figures show the NIS of Lidar and Radar with each time step respectively. As most of the values is under the 95% line and fews of them over the 95% line, the uncertainty is correctly estimated.
+
 <img src="readme_resource/NIS_Lidar.png">
 <img src="readme_resource/NIS_Radar.png">
 
