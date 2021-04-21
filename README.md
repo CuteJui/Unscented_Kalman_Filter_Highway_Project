@@ -51,7 +51,7 @@ Run the executable
 ```
 
 ## Issue
-I provide some potentail solutions to the warning showing up when using cmake.
+I provide some potentail solutions to the warning showing up when using `cmake`.
 - `io features related to pcap will be disabled` \
 This kind of warning is due to the missing of some extra PCL libraries in the environment. Install the extra PCL libraries could fix this warning.
 
